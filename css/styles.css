@@ -40,8 +40,7 @@ ol {
 }
 
 .container {
-    width: 100%;
-    max-width: 1158px;
+    width: 1158px;
     padding-right: 15px;
     padding-left: 15px;
     margin: 0 auto;
@@ -97,10 +96,10 @@ ol {
 .header-link-list {
     display: flex;
     gap: 40px;
+  padding: 24px 0;
 }
 
 .header-link-item {
-    padding: 24px 0;
 }
 
 .header-link {
