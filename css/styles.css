@@ -45,7 +45,6 @@ ol {
     padding-right: 15px;
     padding-left: 15px;
     margin: 0 auto;
-    outline: 2px solid red;
 }
 
 .visually-hidden {
@@ -64,15 +63,20 @@ ol {
 /*!---------------- HEADER -------------*/
 
 .page-header {
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
+    width: 100%;
+    max-width: 1470px;
+    display: flex;
+    align-items: center;
+    gap: 332px;
 }
 
 .header-navigation {
+    display: flex;
+    align-items: center;
 }
 
 .header-logo {
@@ -83,6 +87,7 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .header-logo-accent {
@@ -90,9 +95,12 @@ ol {
 }
 
 .header-link-list {
+    display: flex;
+    gap: 40px;
 }
 
 .header-link-item {
+    padding: 24px 0;
 }
 
 .header-link {
@@ -113,6 +121,8 @@ ol {
 }
 
 .header-address-list {
+    display: flex;
+    gap: 40px;
 }
 
 .header-address-item {
@@ -134,6 +144,7 @@ ol {
 
 .hero {
   background-color: var(--navyblue, #2e2f42);
+  padding: 188px 0;
 }
 
 .hero-title {
@@ -143,15 +154,8 @@ ol {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  width: 496px;
+  max-width: 496px;
   margin: 0 auto;
-  padding-top: 188px;
-}
-
-.button-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .hero-btn {
@@ -163,12 +167,13 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  min-width: 169px;
+  height: 56px;
   border: none;
   border-radius: 4px;
-  width: 169px;
-  height: 56px;
+  display: block;
+  margin: 0 auto;
   margin-top: 48px;
-  margin-bottom: 188px;
 }
 
 .hero-btn:hover,
@@ -179,6 +184,7 @@ ol {
 /*!---------------- ADVANTAGES ----------------*/
 
 .advantages {
+    padding: 120px 0;
 }
 
 .advantages-container {
@@ -187,8 +193,6 @@ ol {
 .advantages-list {
     display: flex;
     gap: 24px;
-    margin-top: 120px;
-    margin-bottom: 120px;
 }
 
 .advantages-item {
@@ -201,6 +205,7 @@ ol {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .advantages-item-text {
@@ -213,13 +218,10 @@ ol {
 /*!----------------- DOING -------------*/
 
 .doing {
+    padding-bottom: 120px;
 }
 
 .doing-container {
-    width: 100%;
-    max-width: 1128px;
-    padding-right: 0;
-    padding-left: 0;
 }
 
 .duing-title {
@@ -230,7 +232,7 @@ ol {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  margin: 0 auto;
+  margin-bottom: 72px;
 }
 .doing-list {
     display: flex;
@@ -262,20 +264,26 @@ ol {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
-  margin: 0 auto;
+  margin-bottom: 72px;
 }
 
 .team-list {
     display: flex;
+    gap: 24px;
 }
 
 .team-item {
   background-color: var(--white, #fff);
   margin: 0 auto;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-img {
     display: block;
+}
+
+.team-container {
+    padding: 32px 16px;
 }
 
 .team-subtitle {
@@ -284,6 +292,8 @@ ol {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-text {
@@ -291,12 +301,14 @@ ol {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center; 
 }
 
 /*!------------------ FOOTER -------------*/
 
 .page-footer {
   background-color: var(--navyblue, #2e2f42);
+  padding: 100px 0;
 }
 
 .footer-logo {
@@ -307,6 +319,8 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo-accent {
@@ -318,6 +332,7 @@ ol {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 
 /**------------- PORTFOLIO -------------*/
