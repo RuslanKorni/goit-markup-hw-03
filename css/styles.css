@@ -276,6 +276,8 @@ ol {
   text-transform: capitalize;
   text-align: center;
   margin: 0 auto;
+  padding-top: 120px;
+  margin-bottom: 72px;
 }
 
 .team-list {
