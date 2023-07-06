@@ -339,9 +339,14 @@ ol {
 /*!------------ MAIN-HERO -----------*/
 
 .portfolio {
+  padding: 96px 0 120px 0;
 }
 
 .portfolio-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
 }
 
 .portfolio-item {
@@ -356,21 +361,40 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  padding: 12px 24px;
+  border-radius: 4px;
+ border: 1px solid var(--cornflower, #E7E9FC);
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
   background-color: var(--ocean);
   color: var(--white);
+  border: 1px solid transparent;
 }
 
 .project-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .project-item {
+  width: calc((100% - 48px) / 3);
 }
 
 .project-link {
+}
+
+.project-img {
+  display: block;
+}
+
+.project-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .project-subtitle {
@@ -379,6 +403,7 @@ ol {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .project-text {
