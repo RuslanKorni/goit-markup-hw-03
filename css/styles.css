@@ -98,8 +98,8 @@ ol {
 }
 
 .header-link-item {
-  padding: 24px 0;
 }
+
 
 .header-link {
   color: var(--navyblue, #2e2f42);
@@ -107,6 +107,7 @@ ol {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: block;
   padding: 24px 0;
 }
 
